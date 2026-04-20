@@ -1,0 +1,11 @@
+# deploy + dialogue 環境 (conda: g1_deploy, Python 3.13)
+# conda activate g1_deploy でインストール済み
+# 追加パッケージのみ記録
+openai
+websockets
+pyaudio
+pyzmq
+scipy
+pandas
+numpy
+pillow

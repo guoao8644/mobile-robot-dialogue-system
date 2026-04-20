@@ -1,3 +1,6 @@
 [submodule "extern/GR00T-WholeBodyControl"]
 	path = extern/GR00T-WholeBodyControl
 	url = https://github.com/NVlabs/GR00T-WholeBodyControl
+[submodule "extern/kimodo"]
+	path = extern/kimodo
+	url = https://github.com/nv-tlabs/kimodo

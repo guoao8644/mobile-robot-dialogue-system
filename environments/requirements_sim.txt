@@ -1,0 +1,7 @@
+# MuJoCo シミュレーター環境 (Python 3.10)
+# source extern/GRooT-WholeBodyControl/.venv_sim/bin/activate でインストール済み
+# 追加パッケージのみ記録
+pillow
+msgpack
+msgpack-numpy
+pyzmq

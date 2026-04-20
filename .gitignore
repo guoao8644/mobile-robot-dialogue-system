@@ -1,0 +1,23 @@
+# 環境
+*.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# 設定（機密情報）
+configs/config.local.yaml
+configs/*.key
+configs/*.secret
+
+# バックアップ
+*.bak
+*.orig
+
+# データ（大容量）
+/data/
+extern/GRooT-WholeBodyControl/gear_sonic_deploy/reference/
+extern/GRooT-WholeBodyControl/gear_sonic_deploy/policy/
+
+# ビルド成果物
+extern/GRooT-WholeBodyControl/gear_sonic_deploy/build/
+extern/GRooT-WholeBodyControl/gear_sonic_deploy/target/

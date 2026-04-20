@@ -1,0 +1,24 @@
+# mobile-robot-dialogue-system 設定ファイル
+# 実際の値は config.local.yaml に記述（.gitignore に追加済み）
+
+openai:
+  api_key: ""  # 環境変数 OPENAI_API_KEY で設定推奨
+
+zmq:
+  port: 5556
+  camera_port: 5555
+  header_size: 1280
+
+audio:
+  mic_rate: 48000
+  sample_rate: 24000
+  mic_device: "pulse"    # PipeWire/Pulse デバイス名
+  out_device: "Jabra"    # スピーカーデバイス名
+
+bones:
+  root: "data/g1/csv"
+  play_fps: 120
+
+paths:
+  gr00t_root: "../extern/GRooT-WholeBodyControl"
+  deploy_root: "../extern/GRooT-WholeBodyControl/gear_sonic_deploy"
