@@ -29,6 +29,8 @@ data/                         # モーションデータ等
 git clone <this-repo>
 cd mobile-robot-dialogue-system
 git submodule update --init --recursive
+cd extern/GR00T-WholeBodyControl
+git lfs pull
 ```
 
 ---
